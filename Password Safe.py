@@ -33,7 +33,7 @@ elif input_1 == "2":
   REFERENCE = input("Enter a reference that you wish to record: ")
   PASSWORD = input("\n" "Enter the password you wish to record for this reference: ")
   f = open("Record.txt", "a")
-  f.write("\n" + "Reference: " + REFERENCE + "\n" + "Password: " + PASSWORD + "\n" + "--------------------------------------------------------------------")
+  f.write("\n" + "Reference: " + REFERENCE + "\n" + "Password: " + PASSWORD + "\n" + "-" * 60)
   f.close()
 else:
   quit()
