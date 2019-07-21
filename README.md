@@ -3,6 +3,8 @@ A basic password manager that requires further development and eventually a usab
 This is my first minor 'project' that I hope I can continually improve over time, adding a GUI and various other functions.
 I am a newbie and know very little about programming, but I want to give it a shot!
 
+I programmed it using Python 3.
+
 There isn't much to note to be honest as it is very basic code, however, it does require a .txt document 
 in the same directory as the 'Password Safe.py' file.
 
