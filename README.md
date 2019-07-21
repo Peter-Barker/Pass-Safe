@@ -5,7 +5,7 @@ I am a newbie and know very little about programming, but I want to give it a sh
 
 I programmed it using Python 3.
 
-There isn't much to note to be honest as it is very basic code, however, it does require a .txt document 
+There isn't much to note to be honest as it is very basic code, however, it does require a .txt document named 'Record.txt'
 in the same directory as the 'Password Safe.py' file.
 
 The password required to use the program is defaulted to 'peter', feel free to change that in the code as you desire.
