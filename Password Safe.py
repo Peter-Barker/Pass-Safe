@@ -9,7 +9,8 @@ import os
 
 # This section determines the password of the folder and its protection
 
-password = input("Enter the password: ")
+print("Peter's Password Safe" + "\n")
+password = input("Enter your password to access the safe: " + "\n" + "\n" + ">")
 
 if password == "peter":
   os.system("cls")
@@ -21,10 +22,9 @@ else:
 # This section determines whether the user desires to insert a new record, if they desire to view their records or if they want to exit.
 # At the end of option 1 and 2 the program will return to the 'main menu' .
 
-
 while True:
   print("Input a number to choose your action:" + "\n")
-  input_1 = input("1 - view your records" + "\n" + "2 - add a new record" + "\n" + "3 - exit the program" + "\n" + ">")
+  input_1 = input("1 - view your records" + "\n" + "2 - add a new record" + "\n" + "3 - exit the program" + "\n" + "\n" + ">")
   os.system("cls")
   if input_1 == "1": 
     print("Press enter to return to the menu.")
